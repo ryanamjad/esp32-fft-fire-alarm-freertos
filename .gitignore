@@ -1,0 +1,48 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.env
+
+# Arduino
+*.elf
+*.bin
+*.map
+*.hex
+
+# Credentials & secrets
+awsCredentials.h
+*.pem
+*.key
+*.crt
+kaggle.json
+
+# Project report
+*.pdf
+
+# Data files
+*.csv
+*.wav
+*.zip
+data/
+
+# Claude Code
+.claude/
+
+# Allow images in images/ directory
+!images/*.png
+!images/*.jpg
