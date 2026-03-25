@@ -113,7 +113,7 @@ The classification model is trained offline and deployed to the ESP32:
 ## Project Structure
 
 ```
-esp32-edge-audio-classification/
+esp32-fft-fire-alarm-freertos/
 ├── README.md                          # Project documentation
 ├── LICENSE                            # MIT License
 ├── .gitignore                         # Git ignore rules
@@ -144,8 +144,8 @@ esp32-edge-audio-classification/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ryanamjad/esp32-edge-audio-classification.git
-   cd esp32-edge-audio-classification
+   git clone https://github.com/ryanamjad/esp32-fft-fire-alarm-freertos.git
+   cd esp32-fft-fire-alarm-freertos
    ```
 
 2. Set up AWS IoT credentials:
